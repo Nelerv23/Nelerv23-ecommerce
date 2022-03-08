@@ -1,0 +1,46 @@
+*div {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: relative;
+  text-align: center;
+  
+  
+  
+}
+.shirt{
+  padding: 150px;
+  
+}
+
+.hoodies{
+  position: relative;
+  text-align: center;
+  padding: 150px;
+
+}
+.sweats{
+  position: relative;
+  text-align: center;
+  padding: 150px;
+
+}
+
+
+.flex{
+  display: flex;
+  padding: 50px;
+  position: relative;
+}
+
+
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+
